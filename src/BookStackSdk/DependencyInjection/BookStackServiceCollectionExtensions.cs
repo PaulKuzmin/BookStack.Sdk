@@ -46,6 +46,7 @@ public static class BookStackServiceCollectionExtensions
         AddApi<IBookStackRecycleBinApi, BookStackRecycleBinApi>(services);
         AddApi<IBookStackSystemApi, BookStackSystemApi>(services);
         AddApi<IBookStackExportApi, BookStackExportApi>(services);
+        AddApi<IBookStackImportApi, BookStackImportApi>(services);
 
         return services;
     }

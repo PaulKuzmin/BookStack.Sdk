@@ -2,6 +2,11 @@
   <Folder Name="/src/">
     <Project Path="src/BookStackSdk/BookStackSdk.csproj" />
   </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/BookStackShelfSync/BookStackShelfSync.csproj" />
+    <Project Path="tools/BookStackDocsPush/BookStackDocsPush.csproj" />
+    <Project Path="tools/BookStackDocsPush.Tests/BookStackDocsPush.Tests.csproj" />
+  </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/BookStackSdk.Tests/BookStackSdk.Tests.csproj" />
   </Folder>
